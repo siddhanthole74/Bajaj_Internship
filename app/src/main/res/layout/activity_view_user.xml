@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_admin_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ViewUserActivity">
+
+    <HorizontalScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="@drawable/table_row_border"
+            tools:ignore="MissingConstraints">
+
+            <TableRow
+                android:background="@drawable/table_row_border">
+
+                <TextView
+                    android:layout_width="277dp"
+                    android:padding="10dp"
+                    android:text="Name" />
+
+                <TextView
+                    android:layout_width="311dp"
+                    android:padding="10dp"
+                    android:text="Last name" />
+
+                <TextView
+                    android:layout_width="424dp"
+                    android:padding="10dp"
+                    android:text="Email" />
+
+                <TextView
+                    android:layout_width="351dp"
+                    android:padding="10dp"
+                    android:text="Role" />
+
+                <TextView
+                    android:layout_width="428dp"
+                    android:padding="10dp"
+                    android:text="Mobile" />
+
+                <TextView
+                    android:layout_width="214dp"
+                    android:padding="10dp"
+                    android:text="Modify" />
+
+                <TextView
+                    android:layout_width="222dp"
+                    android:padding="10dp"
+                    android:text="Delete" />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:padding="10dp"
+                    android:text="Siddhant" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:padding="10dp"
+                    android:text="Hole" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:text="john.doe@example.com" />
+
+                <TextView
+                    android:layout_width="132dp"
+                    android:padding="10dp"
+                    android:text="SDE" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="9322734789" />
+
+                <Button
+                    android:layout_width="8dp"
+                    android:layout_height="40dp"
+                    android:text="Modify"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Delete"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:padding="10dp"
+                    android:text="Rugwed" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:padding="10dp"
+                    android:text="Wagh" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:text="jane.doe@example.com" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="SDE" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="9322734898" />
+
+                <Button
+                    android:layout_width="8dp"
+                    android:layout_height="40dp"
+                    android:text="Modify"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Delete"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+
+                    android:background="@drawable/button_background" />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:padding="10dp"
+                    android:text="Siddhant" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:padding="10dp"
+                    android:text="Hole" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:text="john.doe@example.com" />
+
+                <TextView
+                    android:layout_width="132dp"
+                    android:padding="10dp"
+                    android:text="SDE" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="9322734789" />
+
+                <Button
+                    android:layout_width="8dp"
+                    android:layout_height="40dp"
+                    android:text="Modify"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Delete"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:padding="10dp"
+                    android:text="Rugwed" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:padding="10dp"
+                    android:text="Wagh" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:text="jane.doe@example.com" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="SDE" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="9322734898" />
+
+                <Button
+                    android:layout_width="8dp"
+                    android:layout_height="40dp"
+                    android:text="Modify"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Delete"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+
+                    android:background="@drawable/button_background" />
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:padding="10dp"
+                    android:text="Siddhant" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:padding="10dp"
+                    android:text="Hole" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:text="john.doe@example.com" />
+
+                <TextView
+                    android:layout_width="132dp"
+                    android:padding="10dp"
+                    android:text="SDE" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="9322734789" />
+
+                <Button
+                    android:layout_width="8dp"
+                    android:layout_height="40dp"
+                    android:text="Modify"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Delete"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="119dp"
+                    android:padding="10dp"
+                    android:text="Rugwed" />
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:padding="10dp"
+                    android:text="Wagh" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:padding="10dp"
+                    android:text="jane.doe@example.com" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="SDE" />
+
+                <TextView
+                    android:padding="10dp"
+                    android:text="9322734898" />
+
+                <Button
+                    android:layout_width="8dp"
+                    android:layout_height="40dp"
+                    android:text="Modify"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+                    android:background="@drawable/button_background" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Delete"
+                    android:textSize="12sp"
+                    android:padding="4dp"
+
+                    android:background="@drawable/button_background" />
+
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+</ScrollView>

@@ -1,0 +1,72 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/analysis"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/bug_list"
+            android:icon="@drawable/buglisttt"
+            android:title="Buglist" />
+        <item
+            android:id="@+id/bug_details_form"
+            android:icon="@drawable/file"
+            android:title="Bug Details Form" />
+    </group>
+
+    <item
+        android:title ="Administration">
+        <menu>
+            <item
+                android:id="@+id/qatester"
+                android:icon="@drawable/tester"
+                android:title="QA tester"
+                android:checkable="true" />
+        </menu>
+    </item>
+
+    <item
+        android:title ="Admin">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/create_user"
+                    android:icon="@drawable/adduser111"
+                    android:title="Create User"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/modify_user"
+                    android:icon="@drawable/edit"
+                    android:title="Modify User"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/view_user"
+                    android:icon="@drawable/pageviews"
+                    android:title="View User"
+                    android:checkable="true" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title ="Authentication">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/admin_account"
+                    android:icon="@drawable/useraccount"
+                    android:title="Account"
+                    android:checkable="true" />
+                <item
+                    android:id="@+id/admin_logout"
+                    android:icon="@drawable/exit1"
+                    android:title="Logout"
+                    android:checkable="true" />
+            </group>
+        </menu>
+    </item>
+</menu>

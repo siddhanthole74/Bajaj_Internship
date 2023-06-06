@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="370dp"
+    android:background="@drawable/adminaccountdetailslayout"
+    android:layout_gravity="center">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="158dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/profilepicatcard" />
+
+    <TextView
+        android:id="@+id/usernameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gifImageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="12dp"
+        android:text="Name: Siddhant Vijay Hole"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/usergmailTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTV"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="12dp"
+        android:text="E mail:holesiddhant@gmail.com"
+        android:textSize="15sp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/rolephoneTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No :9322734789"
+        android:textSize="15sp"
+        android:layout_below="@id/usergmailTV"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="85dp"
+        />
+
+    <TextView
+        android:id="@+id/roleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName : Admin@123"
+        android:textSize="15sp"
+        android:layout_below="@id/rolephoneTV"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="85dp"
+        />
+    <TextView
+        android:id="@+id/rolexTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Role :Admin"
+        android:textSize="15sp"
+        android:layout_below="@id/roleTV"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginStart="85dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".AuthSelectionActivity">
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose login option:"
+        android:layout_marginTop="160dp"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/login_options_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:checkedButton="@+id/default_button"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/admin_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login as Admin" />
+        <RadioButton
+            android:id="@+id/qa_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login as QA User" />
+
+        <RadioButton
+            android:id="@+id/user_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login as General User" />
+
+
+
+        <RadioButton
+            android:id="@+id/default_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Proceed" />
+
+</LinearLayout>

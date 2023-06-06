@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_admin_dashboard"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".AdminDashBoardActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Your existing views here -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:text="Admin Dashboard"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_16_sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/pink_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_180"
+            android:layout_margin="@dimen/dimen_16"
+            app:cardBackgroundColor="@color/rectanglebox"
+            app:cardCornerRadius="@dimen/dimen_16"
+            app:cardElevation="@dimen/dimen_16"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+        <TextView
+            android:id="@+id/text_total_bugs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="Total Bugs"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_24"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/pink_card"
+            app:layout_constraintTop_toTopOf="@id/pink_card" />
+        <ImageView
+            android:id="@+id/sos_img"
+            android:layout_width="@dimen/dimen_96"
+            android:layout_height="@dimen/dimen_96"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:src="@drawable/barchart1"
+            app:layout_constraintBottom_toBottomOf="@id/pink_card"
+            app:layout_constraintEnd_toEndOf="@id/pink_card"
+            app:layout_constraintTop_toTopOf="@id/pink_card" />
+        <TextView
+            android:id="@+id/sos_msg"
+            android:layout_width="@dimen/dimen_0"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="3000"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/sos_img"
+            app:layout_constraintStart_toStartOf="@id/pink_card"
+            app:layout_constraintTop_toBottomOf="@id/text_total_bugs" />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/green_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_180"
+            android:layout_margin="@dimen/dimen_16"
+            app:cardBackgroundColor="@color/rectanglebox"
+            app:cardCornerRadius="@dimen/dimen_16"
+            app:cardElevation="@dimen/dimen_16"
+            app:layout_constraintTop_toBottomOf="@id/pink_card" />
+        <TextView
+            android:id="@+id/solved_bugs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="Solved Bugs"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/green_card"
+            app:layout_constraintTop_toTopOf="@id/green_card" />
+        <TextView
+            android:id="@+id/guard_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="2569"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/guard_img"
+            app:layout_constraintStart_toStartOf="@id/green_card"
+            app:layout_constraintTop_toBottomOf="@id/solved_bugs" />
+
+        <ImageView
+            android:id="@+id/guard_img"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:src="@drawable/notes"
+            app:layout_constraintBottom_toBottomOf="@id/green_card"
+            app:layout_constraintEnd_toEndOf="@id/green_card"
+            app:layout_constraintTop_toTopOf="@id/green_card" />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/grey_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_180"
+            android:layout_margin="@dimen/dimen_16"
+            app:cardBackgroundColor="@color/rectanglebox"
+            app:cardCornerRadius="@dimen/dimen_16"
+            app:cardElevation="@dimen/dimen_16"
+            app:layout_constraintTop_toBottomOf="@id/green_card" />
+        <TextView
+            android:id="@+id/open_bugs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="Contributors"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_24"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/green_card"
+            app:layout_constraintTop_toTopOf="@id/grey_card" />
+        <TextView
+            android:id="@+id/open_bugs_msg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="56"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/guard_img"
+            app:layout_constraintStart_toStartOf="@id/grey_card"
+            app:layout_constraintTop_toBottomOf="@id/open_bugs" />
+        <ImageView
+            android:id="@+id/open_bugs_img"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:src="@drawable/bugsearch"
+            app:layout_constraintBottom_toBottomOf="@id/grey_card"
+            app:layout_constraintEnd_toEndOf="@id/grey_card"
+            app:layout_constraintTop_toTopOf="@id/grey_card" />
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/last_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_180"
+            android:layout_margin="@dimen/dimen_16"
+            app:cardBackgroundColor="@color/rectanglebox"
+            app:cardCornerRadius="@dimen/dimen_16"
+            app:cardElevation="@dimen/dimen_16"
+            app:layout_constraintTop_toBottomOf="@id/grey_card" />
+        <TextView
+            android:id="@+id/avg_resolve_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="Avgage resolve Time"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_24"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@id/last_card"
+            app:layout_constraintTop_toTopOf="@id/last_card" />
+        <TextView
+            android:id="@+id/avg_resolve_time_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:text="4 days"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toStartOf="@id/guard_img"
+            app:layout_constraintStart_toStartOf="@id/last_card"
+            app:layout_constraintTop_toBottomOf="@id/avg_resolve_time" />
+        <ImageView
+            android:id="@+id/clock_img"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_margin="@dimen/dimen_16"
+            android:elevation="@dimen/dimen_16"
+            android:src="@drawable/alarmclock"
+            app:layout_constraintBottom_toBottomOf="@id/last_card"
+            app:layout_constraintEnd_toEndOf="@id/last_card"
+            app:layout_constraintTop_toTopOf="@id/last_card" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

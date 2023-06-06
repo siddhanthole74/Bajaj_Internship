@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/adminhomescreenactivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    tools:context=".AdminHomeScreenActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Your existing views here -->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/pink_card"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_180"
+                android:layout_margin="@dimen/dimen_16"
+                app:cardBackgroundColor="@color/pink"
+                app:cardCornerRadius="@dimen/dimen_16"
+                app:cardElevation="@dimen/dimen_16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.101"
+                tools:layout_editor_absoluteX="1dp" />
+
+            <TextView
+                android:id="@+id/text_sos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16"
+                android:elevation="@dimen/dimen_16"
+                android:text="Buglex"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_24"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/pink_card"
+                app:layout_constraintTop_toTopOf="@id/pink_card" />
+
+            <TextView
+                android:id="@+id/sos_msg"
+                android:layout_width="@dimen/dimen_0"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="@dimen/dimen_16"
+                android:text="Buglex is a powerful and efficient bug tracking and detection tool designed to help software developers identify and resolve issues in their code quickly and effectively."
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/sos_img"
+                app:layout_constraintStart_toStartOf="@id/pink_card"
+                app:layout_constraintTop_toBottomOf="@id/text_sos" />
+
+            <ImageView
+                android:id="@+id/sos_img"
+                android:layout_width="@dimen/dimen_96"
+                android:layout_height="@dimen/dimen_96"
+                android:layout_margin="@dimen/dimen_16"
+                android:elevation="@dimen/dimen_16"
+                android:src="@drawable/homescreen22"
+                app:layout_constraintBottom_toBottomOf="@id/pink_card"
+                app:layout_constraintEnd_toEndOf="@id/pink_card"
+                app:layout_constraintTop_toTopOf="@id/pink_card" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/green_card"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_180"
+                android:layout_margin="@dimen/dimen_16"
+                app:cardBackgroundColor="@color/green"
+                app:cardCornerRadius="@dimen/dimen_16"
+                app:cardElevation="@dimen/dimen_16"
+                app:layout_constraintTop_toBottomOf="@id/pink_card" />
+
+            <TextView
+                android:id="@+id/text_guard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16"
+                android:elevation="@dimen/dimen_16"
+                android:text="Key Features"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/green_card"
+                app:layout_constraintTop_toTopOf="@id/green_card" />
+
+            <TextView
+                android:id="@+id/guard_msg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:elevation="@dimen/dimen_16"
+                android:text="Automated Bug Scanning:Perform automated scans of your codebase to detect bugs, errors, and vulnerabilities.Detailed Reports: Generate comprehensive bug reports with detailed information."
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toStartOf="@id/guard_img"
+                app:layout_constraintStart_toStartOf="@id/green_card"
+                app:layout_constraintTop_toBottomOf="@id/text_guard" />
+
+            <ImageView
+                android:id="@+id/guard_img"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_margin="@dimen/dimen_16"
+                android:elevation="@dimen/dimen_16"
+                android:src="@drawable/ic_guard"
+                app:layout_constraintBottom_toBottomOf="@id/green_card"
+                app:layout_constraintEnd_toEndOf="@id/green_card"
+                app:layout_constraintTop_toTopOf="@id/green_card" />
+
+
+            <!-- Your other views here -->
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16"
+                android:text="Top Contributors"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dimen_16_sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.983" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:id="@+id/constraintLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_180"
+                android:layout_margin="@dimen/dimen_16"
+                android:background="@color/grey_bg"
+                android:elevation="@dimen/dimen_16"
+                android:padding="@dimen/dimen_16"
+                app:cardCornerRadius="@dimen/dimen_16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/green_card"
+
+
+                app:layout_constraintVertical_bias="0.462"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp">
+
+                <ImageView
+                    android:id="@+id/img_user"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:src="@drawable/ic_user_color"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_16"
+                    android:text="Siddhant Hole"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dimen_16_sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@id/img_user"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/img_location"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="12dp"
+                    android:src="@drawable/ic_location_icon"
+                    app:layout_constraintStart_toStartOf="@id/name"
+                    app:layout_constraintTop_toBottomOf="@id/name"
+                    app:tint="@color/green" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="@dimen/dimen_8"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="9th buildind, 2nd floor, maldiv road, manali 9th buildind, 2nd floor 9th buildind, 2nd floor,"
+                    android:textColor="@android:color/darker_gray"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/img_location"
+                    app:layout_constraintTop_toBottomOf="@id/name" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="16:40"
+                    android:textColor="@android:color/darker_gray"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/name" />
+
+
+                <LinearLayout
+                    android:id="@+id/lin_battery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8"
+                    android:layout_marginTop="@dimen/dimen_16"
+                    android:background="@drawable/shape_rounded_rect"
+                    android:orientation="horizontal"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    app:layout_constraintEnd_toStartOf="@id/lin_distance"
+                    app:layout_constraintHorizontal_chainStyle="spread"
+                    app:layout_constraintStart_toStartOf="@id/img_user"
+                    app:layout_constraintTop_toBottomOf="@id/img_user">
+
+                    <ImageView
+                        android:id="@+id/img_battery"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_battery"
+                        app:tint="@color/green" />
+
+                    <TextView
+                        android:id="@+id/battery_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="90%"
+                        android:textColor="@color/green"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lin_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8"
+                    android:layout_marginTop="@dimen/dimen_16"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toStartOf="@id/lin_wifi"
+                    app:layout_constraintStart_toEndOf="@id/lin_battery"
+                    app:layout_constraintTop_toBottomOf="@id/img_user">
+
+                    <ImageView
+                        android:id="@+id/img_distance"
+                        android:layout_width="16dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_send_msg"
+                        app:layout_constraintStart_toEndOf="@id/battery_percent"
+                        app:layout_constraintTop_toBottomOf="@id/img_user"
+                        app:tint="#b197dc" />
+
+                    <TextView
+                        android:id="@+id/distance_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="223M"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@id/img_battery"
+                        app:layout_constraintStart_toEndOf="@id/img_distance"
+                        app:layout_constraintTop_toTopOf="@id/img_battery" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lin_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8"
+                    android:layout_marginTop="@dimen/dimen_16"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toStartOf="@id/img_call"
+                    app:layout_constraintStart_toEndOf="@id/lin_distance"
+                    app:layout_constraintTop_toBottomOf="@id/img_user">
+
+
+                    <ImageView
+                        android:id="@+id/img_wifi"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_wifi"
+                        app:layout_constraintStart_toEndOf="@id/distance_value"
+                        app:layout_constraintTop_toBottomOf="@id/img_user"
+                        app:tint="@color/green" />
+
+                    <TextView
+                        android:id="@+id/wifi_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="4dp"
+                        android:text="WiFi"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@id/img_battery"
+                        app:layout_constraintStart_toEndOf="@id/img_wifi"
+                        app:layout_constraintTop_toTopOf="@id/img_battery" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:id="@+id/img_call"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/shape_circle"
+                    android:padding="@dimen/dimen_8"
+                    android:src="@drawable/ic_call"
+                    app:layout_constraintBottom_toBottomOf="@id/lin_battery"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/lin_battery"
+                    app:tint="@color/black" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_16"
+            android:text="Admin Home Screen"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_16_sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/drawergif"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/dimen_16"
+            android:src="@drawable/drawer11"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/notificationbells"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="@dimen/dimen_16"
+            android:src="@drawable/notificatopnbell1111"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/admin_nav_header"
+        app:menu="@menu/admin_nav_menu"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"/>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+

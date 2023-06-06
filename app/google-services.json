@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "534502624229",
+    "project_id": "bugdetectionapp",
+    "storage_bucket": "bugdetectionapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534502624229:android:ab354a8781c4bfff193d0c",
+        "android_client_info": {
+          "package_name": "com.example.bugscount"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534502624229-rb4k1dbu32rgfnemv5k9u56tv9218khv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bugscount",
+            "certificate_hash": "d6101f3eab17e2612f8d4eab7dd043a2038aeb58"
+          }
+        },
+        {
+          "client_id": "534502624229-smteu285k7ia5v13dtra9mo77oqsk8v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARDTbbgWepkKSMIxhRBbWZDpjPGAIPRE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534502624229-smteu285k7ia5v13dtra9mo77oqsk8v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
