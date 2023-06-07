@@ -9,8 +9,8 @@ https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/886d605f-0c3
 ![1686055301454](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/30636e3e-4995-4c70-86e4-fcae1fae9938)
 # Dashboard
 ![1686055395114 (1)](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/58af9485-3379-4759-be46-18023da0ecb7)
-# Buglist
-https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/9a7d663f-3dd0-473e-9493-7fff61b453d4
+# Bug details List
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/f07fcbc4-b09e-4a2a-9304-1e41b2d1ff27
 # Bug details form
 https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/aa7f7924-c3a6-428b-925f-6ad7074c7a5a
 # QA tester 
