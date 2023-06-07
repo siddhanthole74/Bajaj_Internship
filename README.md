@@ -21,10 +21,16 @@ https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/4ff35ed8-8a1
 ![Screenshot_2023-06-06-18-24-12-278-edit_com example bugscount (1)](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/8a5695f3-c1d7-403e-bfcb-b09abd131cef)
 # View User
 https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/958404f9-ac84-44ff-b2ef-c426f03629b5
-# Admin Accounnt details
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/4fe3c0f9-57e1-4aab-9358-87cc88a98543
+# Admin Account details
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/fbd6c71a-0b80-4739-a7c3-b64ea9e8c5e6
 # QA User Login
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/b205f4d1-477b-4833-be40-3639d890fc5e
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/f4df4cb9-2253-4645-b9dc-1e7ead5c5145
 #  General User Login
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/4486fbdc-6712-4f5a-a397-4d8c2f964a0d
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/b965a388-e978-48a3-a888-e7fc5d5b4633
+
+
+
+
+
+
 
