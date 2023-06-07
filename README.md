@@ -1,6 +1,6 @@
 # BajajInternship 
 # Buglex Splash Screen
-![letterb](https://github.com/siddhanthole74/BajajInternship/assets/100555105/288d096a-0e8d-4b33-be57-ac10f11e5caf)
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/49b37d49-dec9-46d8-869d-525eb15b1855
 # Admin Login Screen With Firebase 
 https://github.com/siddhanthole74/BajajInternship/assets/100555105/8bd2ea97-c6a1-4832-8df9-27fc4348ab2f
 # Admin Home Screen
