@@ -6,7 +6,7 @@ https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/4f023f4e-3bd
 # Admin Home Screen
 https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/886d605f-0c30-4f16-8e29-cbdbb3208c4f
 # Drawer
-![1686055301454](https://github.com/siddhanthole74/BajajInternship/assets/100555105/c3a32857-3b35-4759-a5ed-e55c72117ec2)
+![1686055301454](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/30636e3e-4995-4c70-86e4-fcae1fae9938)
 # Dashboard
 ![1686055395114](https://github.com/siddhanthole74/BajajInternship/assets/100555105/55994835-bfa3-4742-92e7-ef4284007ab5)
 # Buglist
