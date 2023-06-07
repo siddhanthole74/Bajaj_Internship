@@ -10,17 +10,17 @@ https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/886d605f-0c3
 # Dashboard
 ![1686055395114 (1)](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/58af9485-3379-4759-be46-18023da0ecb7)
 # Buglist
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/14d950a0-0d93-441e-b14b-2844f861228e
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/9a7d663f-3dd0-473e-9493-7fff61b453d4
 # Bug details form
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/69c48fb4-98c5-4038-92ed-bf4106cef7c1
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/aa7f7924-c3a6-428b-925f-6ad7074c7a5a
 # QA tester 
- ![1686055708289](https://github.com/siddhanthole74/BajajInternship/assets/100555105/7176c008-4a8c-4ff4-8c0c-820bfcf46e14)
+![1686055708289 (1)](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/f336db27-2c5c-4047-a489-5bd2b8dcdeeb)
 # Create User Form
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/c9783fa5-9e99-4708-8a36-b8d1916103e4
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/4ff35ed8-8a11-4992-8bbe-89f1f87f834d
 # Modify User
-![Screenshot_2023-06-06-18-24-12-278-edit_com example bugscount](https://github.com/siddhanthole74/BajajInternship/assets/100555105/1344cd21-ceca-4131-8700-783a55e1679c)
+![Screenshot_2023-06-06-18-24-12-278-edit_com example bugscount (1)](https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/8a5695f3-c1d7-403e-bfcb-b09abd131cef)
 # View User
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/c4f52a22-9eb0-4e83-b9f9-8966e8a4002f
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/958404f9-ac84-44ff-b2ef-c426f03629b5
 # Admin Accounnt details
 https://github.com/siddhanthole74/BajajInternship/assets/100555105/4fe3c0f9-57e1-4aab-9358-87cc88a98543
 # QA User Login
