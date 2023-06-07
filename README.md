@@ -2,7 +2,7 @@
 # Buglex Splash Screen
 https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/49b37d49-dec9-46d8-869d-525eb15b1855
 # Admin Login Screen With Firebase 
-https://github.com/siddhanthole74/BajajInternship/assets/100555105/8bd2ea97-c6a1-4832-8df9-27fc4348ab2f
+https://github.com/siddhanthole74/Bajaj_Internship/assets/100555105/4f023f4e-3bd7-4784-8746-37118b800e4a
 # Admin Home Screen
 https://github.com/siddhanthole74/BajajInternship/assets/100555105/bede9dad-1a98-41e6-ac61-12bdfcf241d9
 # Drawer
